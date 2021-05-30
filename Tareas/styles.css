@@ -1,0 +1,15 @@
+
+div.cabecera
+{
+    background-color: slategray;
+    padding: 15px 40px;
+    margin: 0px;
+}
+
+a
+{
+    border-radius: 4px;
+    margin: 2px;
+    padding: 5px 10px;
+    background-color: teal;
+}
