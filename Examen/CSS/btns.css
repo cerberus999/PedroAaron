@@ -1,0 +1,27 @@
+.display .main input[type="text"], input[type="password"]{
+    width: 100%;
+    padding: 6px;
+    margin: 15px;
+    border-radius: 25px;
+    border: 2px ridge white;
+    font-size: 18px;
+    color: white;
+    background: none;
+}
+
+.display .main input[type="text"]:focus, input[type="password"]:focus{
+    border: none;
+}
+
+.buttonContainer{
+    float: right;
+}
+
+.display .main button{
+    margin: 10px;
+    color: whitesmoke;
+    border: 2px whitesmoke ridge;
+    background: none;
+    border-radius: 15px;
+    padding: 8px;
+}

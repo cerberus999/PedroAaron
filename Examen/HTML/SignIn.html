@@ -4,59 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
     <title>Document</title>
 </head>
 <body>
+    
     <div class="display">
         <div class="header">
             <div class="left">
                 <img id="menu" class="menuImg" src="http://assets.stickpng.com/images/588a6507d06f6719692a2d15.png">
             </div>
             <div class="right">
-                <a href="./HTML/SignUp.html">Registrate</a>
-                <a href="./HTML/SignIn.html">Ingresar</a>
+                <a href="SignUp.html">Registrate</a>
+                <a href="SignIn.html">Ingresar</a>
             </div>
         </div>
         <div class="content">
-            <div id="window" class="about">
-                <span 
-                onclick="document.getElementById('window').style.display ='none'"
-                class="close" title="Close Modal">&times;</span>    
-                <div class="main">
-                    <p><strong>Creado por Pedro Aaron</strong></p>
-                </div>
-            </div>
-            
             <div id="lateralNav" class="lateralnav">
-                <a href="index.html">
+                <a href="../index.html">
                     <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3OJW0KUrh-3T2TBQt94N960-yusz__8TjkA&usqp=CAU">
                 </a>
                 <a href="OtraPagina.html">Contactanos</a>
                 <a href="OtraPagina.html">Agenda</a>
-                <a 
-                    onclick="document.getElementById('window').style.display = 'flex'">Acerca de</a>
+                <a href="OtraPagina.html">Acerca de</a>
             </div>
             <div class="main">
                 <div class="mainTitle">
                     <h2 class="title">No se que poner</h2>
                 </div>
-                <textarea name="" id="" cols="140" rows="10"></textarea>
+                
             </div>
         </div>
     </div>
-    
-    <script>
-        var modalAbUs = getElementById('window');
-        
-        window.onclick = function(event){
-            if(event.target == modalAbUs){
-                modal.style.display = "none";
-            }
-        }
-    </script>
 
     <script>
         document.getElementById("menu").addEventListener("click",function(){

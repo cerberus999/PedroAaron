@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'BlackCrayon';
-    src: url("BlackCrayon.ttf");
+    src: url("../Fonts/BlackCrayon.ttf");
     font-weight: normal;
     font-style: normal;
 }
@@ -17,7 +17,7 @@ body{
     font-family: 'BlackCrayon';
     color: whitesmoke;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .content{
@@ -37,6 +37,7 @@ body{
 
 .menuImg{
     height: 40px;
+    cursor: pointer;
 }
 
 .menuImg:hover{
@@ -73,6 +74,7 @@ body{
 
 .lateralnav{
     overflow-y: auto;
+    overflow-x: hidden;
     width: 200px;
     max-width: 0;
     height: 100%;
@@ -109,5 +111,26 @@ a:hover, .logo:hover{
     color: whitesmoke;
     resize: none;
     background: none;
-    border: none;
+    border: 1px solid white;
+}
+
+.display .about{
+    color: whitesmoke;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 40%;
+    overflow: auto;
+    text-align: center;
+}
+
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    font-size: 35px;
+    font-weight: bold;
 }
