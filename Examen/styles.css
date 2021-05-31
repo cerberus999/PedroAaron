@@ -1,3 +1,113 @@
-nav{
-    display: inline;
+
+@font-face {
+    font-family: 'BlackCrayon';
+    src: url("BlackCrayon.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.display{
+    font-family: 'BlackCrayon';
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    display: flex;
+    height: 94%;
+}
+
+.header{
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-madera_53876-14865.jpg?size=626&ext=jpg);
+    width: 100vw;
+    height: 40px;
+}
+
+.left{
+    float: left;
+}
+
+.menuImg{
+    height: 40px;
+}
+
+.menuImg:hover{
+    background-color: rgb(163, 103, 46);
+}
+
+.right{
+    float: right;
+}
+
+.right a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 6px;
+    margin: 7px;
+}
+
+.main{
+    display: flexbox;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    background-image: url(https://static9.depositphotos.com/1013107/1206/i/600/depositphotos_12067854-stock-photo-grunge-blackboard-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.display .main .title{
+    width: 100%;
+    text-align: center;
+    font-family: 'BlackCrayon';
+}
+
+.lateralnav{
+    overflow-y: auto;
+    width: 200px;
+    max-width: 0;
+    height: 100%;
+    font-size: larger;
+    background-color: #166151;
+    text-decoration: none;
+    bottom: 0;
+    transition: 1s all;
+}
+
+.mostrar{
+    max-width: 200px;
+}
+
+.lateralnav a{
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover, .logo:hover{
+    background-color: #639288;
+}
+
+.logo{
+    display: inline-block;
+    width: 100%;
+}
+
+.display .main textarea{
+    width: 100%;
+    color: whitesmoke;
+    resize: none;
+    background: none;
+    border: none;
 }

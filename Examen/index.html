@@ -1,23 +1,47 @@
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <div>
-            <img src="logo.jgp">
-            <a href="OtraPagina.html">Home</a>
-            <a href="OtraPagina.html">Contacts</a>
-            <a href="OtraPagina.html">Game</a>
-            <a href="OtraPagina.html">Lists</a>
+    <div class="display">
+        <div class="header">
+            <div class="left">
+                <img id="menu" class="menuImg" src="http://assets.stickpng.com/images/588a6507d06f6719692a2d15.png">
+            </div>
+            <div class="right">
+                <a href="SignUp.html">Registrate</a>
+                <a href="SignIn">Ingresar</a>
+            </div>
         </div>
-        <div>
-            <img src="menu.jpg">
+        <div class="content">
+            <div id="lateralNav" class="lateralnav">
+                <a href="index.html">
+                    <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3OJW0KUrh-3T2TBQt94N960-yusz__8TjkA&usqp=CAU">
+                </a>
+                <a href="OtraPagina.html">Contacto</a>
+                <a href="OtraPagina.html">Agenda</a>
+                <a href="OtraPagina.html">Acerca de</a>
+            </div>
+            <div class="main">
+                <div class="mainTitle">
+                    <h2 class="title">No se que poner</h2>
+                </div>
+                <textarea name="" id="" cols="140" rows="10"></textarea>
+            </div>
         </div>
-    </nav>
+    </div>
+
+    <script>
+        document.getElementById("menu").addEventListener("click",function(){
+            document.getElementById("lateralNav").classList.toggle("mostrar");
+        });
+    </script>
 </body>
-</html>
